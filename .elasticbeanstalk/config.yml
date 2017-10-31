@@ -1,0 +1,20 @@
+branch-defaults:
+  default:
+    environment: null
+    group_suffix: null
+  master:
+    environment: odr-env
+global:
+  application_name: odr-prod-client
+  branch: null
+  default_ec2_keyname: vmg
+  default_platform: Node.js
+  default_region: ca-central-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: null
+  workspace_type: Application
